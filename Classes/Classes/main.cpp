@@ -24,16 +24,20 @@ int main()
 		"B",
 		Vector2(50.f, 50.f),
 		Vector2(90.f, 90.f),
-		45
+	    20
 	);
 
 	if (First > Second)
 	{
 		std::cout << "Triangle " << First.GetName() << "'s UpAngle is bigger";
 	}
-	else
+	else if(Second > First)
 	{
 		std::cout << "Triangle " << Second.GetName() << "'s UpAngle is bigger";
+	}
+	else
+	{
+		std::cout << "UpAngles of triangles are equal";
 	}
 
 
