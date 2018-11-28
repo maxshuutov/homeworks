@@ -1,0 +1,4 @@
+﻿  main.cpp
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  main.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DataBase.vcxproj -> D:\Homework\homeworks\DataBase\Debug\DataBase.exe
