@@ -199,8 +199,7 @@ int main()
 
 	}
 
-	remove(Movies, n);
-
+	delete[] Movies;
 	return 0;
 
 }
@@ -305,6 +304,9 @@ void remove(Film *Movies, int &n)
 		Movies[i].duration = Movies[i + 1].duration;
 
 		Movies[i].budget = Movies[i + 1].budget;
+
+
+
 
 	}
 
